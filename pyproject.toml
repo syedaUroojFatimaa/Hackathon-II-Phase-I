@@ -1,0 +1,17 @@
+[project]
+name = "todo-app"
+version = "0.1.0"
+description = "Phase I - In-Memory Python Console Todo App"
+authors = ["Todo App Team"]
+requires-python = ">=3.13"
+readme = "README.md"
+
+[project.scripts]
+todo = "src.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
